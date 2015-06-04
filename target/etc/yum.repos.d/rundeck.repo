@@ -1,18 +1,6 @@
-[rundeck-release]
+[rundeck-release-bintray]
 name=Rundeck - Release
-baseurl=http://repo.rundeck.org/repo/rundeck/1/release
-gpgkey=http://repo.rundeck.org/repo/RPM-GPG-KEY-RunDeck.org
-gpgcheck=0
-
-[rundeck-updates]
-name=Rundeck - Updates
-baseurl=http://repo.rundeck.org/repo/rundeck/1/updates
-gpgkey=http://repo.rundeck.org/repo/RPM-GPG-KEY-RunDeck.org
-gpgcheck=0
-enabled=0
-
-[rundeck-bleeding]
-name=Rundeck - Bleeding Edge
-baseurl=http://repo.rundeck.org/repo/rundeck/1/bleedingedge
-gpgcheck=0
-enabled=0
+baseurl=http://dl.bintray.com/rundeck/rundeck-rpm
+gpgkey=http://rundeck.org/keys/BUILD-GPG-KEY-Rundeck.org
+gpgcheck=1
+enabled=1
