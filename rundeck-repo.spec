@@ -1,6 +1,6 @@
 name: rundeck-repo
 version: 4
-release: 0
+release: 1
 summary: Rundeck Repository Bootstrap
 group: Applications/System
 license: APL
