@@ -1,5 +1,5 @@
 name: rundeck-repo
-version: 4
+version: 5
 release: 1
 summary: Rundeck Repository Bootstrap
 group: Applications/System
